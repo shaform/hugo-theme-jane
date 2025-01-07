@@ -51,4 +51,8 @@
   justify-content: center;
 }
 
+#disqus_thread {
+  background: var(--pico-background-color);
+}
+
 @import '_toc';
