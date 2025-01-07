@@ -51,7 +51,7 @@
   justify-content: center;
 }
 
-#comment iframe {
+.comment iframe {
   color-scheme: none; // This is actually an invalid value, but it prevents the browser from applying the color scheme to the iframes.
 }
 
