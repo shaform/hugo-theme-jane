@@ -51,8 +51,10 @@
   justify-content: center;
 }
 
-.comment iframe {
-  color-scheme: none; // This is actually an invalid value, but it prevents the browser from applying the color scheme to the iframes.
+ // This is to match the color scheme of Disqus so that its background could be transparent
+ // See: https://fvsch.com/transparent-iframes
+.comment [id*="disqus"] iframe {
+  color-scheme: light;
 }
 
 @import '_toc';
